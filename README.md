@@ -20,7 +20,6 @@ This diagram is preliminary. It can change.
 flowchart LR
     M2["M.2 key E edge connector<br/>3.3 V, SPI with chip selects, I2S,<br/>I2C for control, ID_SD/ID_SC,<br/>GPIO, 10 MHz reference, PPS"]
 
-    LDO["LDO"]
     EEPROM["ID EEPROM<br/>Raspberry Pi HAT format"]
     PLL["ADF4002 PLL"]
     TCXO["32 MHz VCTCXO"]
@@ -30,7 +29,6 @@ flowchart LR
     TXC["U.FL TX"]
     RXC["U.FL RX"]
 
-    M2 -- "3.3 V" --> LDO
     M2 -- "ID_SD, ID_SC" --> EEPROM
     M2 -- "SPI" --> SX
     M2 -- "SPI" --> ATT
