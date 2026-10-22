@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "de5f5dc7-3630-4616-b273-de33421ac1bb")
+	(paper "A4")
+	(title_block
+		(title "RRU2 RF SX1255")
+		(date "2026-10-22")
+		(rev "A")
+		(company "M17 Project")
+	)
+	(lib_symbols)
+)
