@@ -57,6 +57,7 @@ digital signals. The RF signals go through the two U.FL connectors.
 | Board | 0.8 mm, 4 layers, JLCPCB stackup JLC04081H-7628 |
 | RF connectors | 2x U.FL (TX and RX) |
 | Frequency range | 400 MHz to 510 MHz (SX1255) |
+| Output power | 22 dBm (P1dB) |
 
 ## Repository
 
