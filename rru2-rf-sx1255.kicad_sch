@@ -342,14 +342,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "M17_ICs:TCXO-ECS-TXO-20CSMV4-32M"
+		(symbol "M17_ICs:VCXO-XLH53V032-32M"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
-				(at 0 6.35 0)
+				(at 0 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -359,7 +359,7 @@
 				)
 			)
 			(property "Value" "32MHz"
-				(at 0 3.81 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -368,18 +368,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-20CSMV4.pdf"
+			(property "Footprint" "Oscillator:Oscillator_SMD_IDT_JS6-6_5.0x3.2mm_P1.27mm"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -390,7 +379,18 @@
 					)
 				)
 			)
-			(property "Description" "32 MHz 0.5 ppm clipped sine TCXO, 2.0x1.6 mm"
+			(property "Datasheet" "https://www.renesas.com/en/document/dst/xl-family-low-phase-noise-quartz-based-pll-oscillators-datasheet"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "32 MHz VCXO, LVCMOS 3.3 V output, 50 ppm pull range, 5.0x3.2 mm. Reference for the ADF4002 PLL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -401,7 +401,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "ECS Inc."
+			(property "Manufacturer" "Renesas Electronics"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -412,7 +412,7 @@
 					)
 				)
 			)
-			(property "MPN" "ECS-TXO-20CSMV4-320-AY-TR"
+			(property "MPN" "XLH53V032.000000I"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -423,7 +423,7 @@
 					)
 				)
 			)
-			(property "Mouser" "520-TX20CSMV4320AYTR"
+			(property "Mouser" "972-XLH53V032000000I"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -434,7 +434,18 @@
 					)
 				)
 			)
-			(property "Type" "tcxo"
+			(property "LCSC" "C1671263"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "vcxo"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -456,7 +467,7 @@
 					)
 				)
 			)
-			(property "Operating_temperature" "-30C-85C"
+			(property "Operating_temperature" "-40C-85C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -467,7 +478,7 @@
 					)
 				)
 			)
-			(property "Output" "clipped_sine_0.8Vpp_typ"
+			(property "Output" "LVCMOS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -478,7 +489,7 @@
 					)
 				)
 			)
-			(property "Package" "2.0x1.6mm"
+			(property "Package" "5.0x3.2mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -489,7 +500,7 @@
 					)
 				)
 			)
-			(property "Stability" "0.5ppm"
+			(property "Pull_range" "50ppm_APR"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -500,7 +511,7 @@
 					)
 				)
 			)
-			(property "Supply_voltage" "1.7V-3.6V"
+			(property "Supply_voltage" "3.3V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -511,7 +522,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "32MHz ECS-TXO-20CSMV4-320-AY-TR"
+			(property "Tuning_slope" "85ppm/V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -522,10 +533,21 @@
 					)
 				)
 			)
-			(symbol "TCXO-ECS-TXO-20CSMV4-32M_0_1"
+			(property "ki_keywords" "32MHz XLH53V032.000000I"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCXO-XLH53V032-32M_0_1"
 				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -5.08)
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -535,11 +557,11 @@
 					)
 				)
 			)
-			(symbol "TCXO-ECS-TXO-20CSMV4-32M_1_1"
-				(pin power_in line
-					(at -1.27 -7.62 90)
+			(symbol "VCXO-XLH53V032-32M_1_1"
+				(pin passive line
+					(at -10.16 -1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "Vc"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -554,10 +576,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 1.27 -7.62 90)
+				(pin input line
+					(at -10.16 1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "E/D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -572,8 +594,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
-					(at 8.89 0 180)
+					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "OUT"
 						(effects
@@ -582,7 +622,25 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -600,7 +658,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -611,11 +669,11 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "M17_Mechanical:CONN-M2-KEYE-2230-CARD"
+		(symbol "M17_Mechanical:CONN-M2-KEYE-2242-CARD"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at -22.86 46.99 0)
@@ -638,7 +696,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PCBEdge:M.2_2230-xx-E"
+			(property "Footprint" "M17_Connectors:M.2_2242-xx-E"
 				(at 0 26.67 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -660,7 +718,7 @@
 					)
 				)
 			)
-			(property "Description" "M.2 2230 key E card edge connector (gold fingers on the card). It is a board feature, not a part to buy"
+			(property "Description" "M.2 2242 key E card edge connector (gold fingers on the card). It is a board feature, not a part to buy"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -704,7 +762,7 @@
 					)
 				)
 			)
-			(symbol "CONN-M2-KEYE-2230-CARD_0_1"
+			(symbol "CONN-M2-KEYE-2242-CARD_0_1"
 				(rectangle
 					(start -22.86 45.72)
 					(end 22.86 -45.72)
@@ -717,7 +775,7 @@
 					)
 				)
 			)
-			(symbol "CONN-M2-KEYE-2230-CARD_1_1"
+			(symbol "CONN-M2-KEYE-2242-CARD_1_1"
 				(pin passive line
 					(at 0 -48.26 90)
 					(length 2.54)
@@ -2225,7 +2283,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TP"
 				(at 0 6.858 0)
@@ -5245,6 +5303,462 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "M17_Passives:RES-1K-0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1k"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.uni-royal.cn/en/images/userfile/file/1787191973c56505e6d9ab55c7.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0402 thick film resistor, 62.5mW, ±100ppm/℃, -55℃~+155℃"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0402WGF1001TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "303-0402WGF1001TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C11702"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Technology" "Thick Film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "1k 0402WGF1001TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES-1K-0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES-1K-0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "M17_Passives:RES-470R-0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "470R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.uni-royal.cn/en/images/userfile/file/1787191973c56505e6d9ab55c7.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "0402 thick film resistor, 62.5mW, ±100ppm/℃, -55℃~+155℃"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0402WGF4700TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mouser" "303-0402WGF4700TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C25117"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Technology" "Thick Film"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "±1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "470R 0402WGF4700TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES-470R-0402_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES-470R-0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "M17_Power:GND"
 			(power global)
 			(pin_numbers
@@ -5257,7 +5771,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
@@ -5383,7 +5897,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
@@ -5533,7 +6047,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(in_pos_files yes)
+			(in_pos_files no)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#FLG"
 				(at 0 1.905 0)
@@ -6605,12 +7119,6 @@
 		(uuid "0a79fe31-8185-4a04-9ef4-97ec95acd2d9")
 	)
 	(junction
-		(at 228.6 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "184f6bf6-7a62-459f-b5ce-72366ece5849")
-	)
-	(junction
 		(at 228.6 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6689,12 +7197,6 @@
 		(uuid "9e15bdf1-8489-42b0-8cd8-51e0eb67e78e")
 	)
 	(junction
-		(at 238.76 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b28effb0-8bdf-4202-bef9-fd3443d02307")
-	)
-	(junction
 		(at 81.28 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6713,12 +7215,6 @@
 		(uuid "da8b078b-c106-46ce-bf40-464b6c93cb9f")
 	)
 	(junction
-		(at 228.6 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6366101-d1a4-45bc-879c-49f69faf7273")
-	)
-	(junction
 		(at 130.81 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6735,10 +7231,6 @@
 		(uuid "002b9d5f-fbcb-4cab-92a2-83ce6605eeac")
 	)
 	(no_connect
-		(at 55.88 152.4)
-		(uuid "02b74c95-6779-4394-b282-ac756772f385")
-	)
-	(no_connect
 		(at 55.88 147.32)
 		(uuid "0586d049-314b-46fc-b927-8a878daa7c20")
 	)
@@ -6753,10 +7245,6 @@
 	(no_connect
 		(at 106.68 134.62)
 		(uuid "0ac698ea-56a9-4cc8-a876-03289741c34a")
-	)
-	(no_connect
-		(at 106.68 129.54)
-		(uuid "0b73e960-bb5a-4294-878b-96d4893d3d51")
 	)
 	(no_connect
 		(at 55.88 91.44)
@@ -6885,10 +7373,6 @@
 	(no_connect
 		(at 55.88 101.6)
 		(uuid "d6d27c0c-484b-483b-9962-9cccb3104d69")
-	)
-	(no_connect
-		(at 106.68 147.32)
-		(uuid "d9b2deed-695b-4ae3-b5ad-d6840619527b")
 	)
 	(no_connect
 		(at 55.88 149.86)
@@ -7052,16 +7536,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 146.05) (xy 241.3 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12c856d9-8628-4db0-adda-b25ca2ae093a")
-	)
-	(wire
-		(pts
 			(xy 323.85 100.33) (xy 323.85 101.6)
 		)
 		(stroke
@@ -7099,16 +7573,6 @@
 			(type default)
 		)
 		(uuid "154bc8e9-0bd0-4134-8dac-8eb64a6cc15c")
-	)
-	(wire
-		(pts
-			(xy 252.73 140.97) (xy 273.05 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "182713f9-d64d-4a11-8b0b-7005c7b32301")
 	)
 	(wire
 		(pts
@@ -7182,16 +7646,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 128.27) (xy 228.6 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aadc5e6-eab5-42be-92d0-9da0c32e5b4d")
-	)
-	(wire
-		(pts
 			(xy 300.99 118.11) (xy 262.89 118.11)
 		)
 		(stroke
@@ -7212,16 +7666,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 133.35) (xy 217.17 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec3bb26-a8e8-4ebc-bc64-20fb88d4f98e")
-	)
-	(wire
-		(pts
 			(xy 209.55 257.81) (xy 209.55 259.08)
 		)
 		(stroke
@@ -7229,16 +7673,6 @@
 			(type default)
 		)
 		(uuid "30316268-19bb-441b-9d9f-0bb049b5b82c")
-	)
-	(wire
-		(pts
-			(xy 248.92 137.16) (xy 252.73 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30be5c9d-5ac4-425e-b42c-e389a0cfea67")
 	)
 	(wire
 		(pts
@@ -7339,16 +7773,6 @@
 			(type default)
 		)
 		(uuid "3ecf3f0e-d17f-4ec4-b6e7-72c51934a0d9")
-	)
-	(wire
-		(pts
-			(xy 331.47 118.11) (xy 336.55 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff33d2d-36e1-4bf9-88e7-681bc3ef372d")
 	)
 	(wire
 		(pts
@@ -7482,16 +7906,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 146.05) (xy 240.03 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51466f8e-efa9-4c2b-b901-8c3625e35134")
-	)
-	(wire
-		(pts
 			(xy 106.68 121.92) (xy 116.84 121.92)
 		)
 		(stroke
@@ -7509,16 +7923,6 @@
 			(type default)
 		)
 		(uuid "57709921-865f-4034-9ebf-d61691d5dcb8")
-	)
-	(wire
-		(pts
-			(xy 334.01 110.49) (xy 334.01 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59b1b76e-d3ef-4a29-a2e9-ea714fcc3348")
 	)
 	(wire
 		(pts
@@ -7579,16 +7983,6 @@
 			(type solid)
 		)
 		(uuid "604b7eb8-5009-4654-b453-3a08e476f065")
-	)
-	(wire
-		(pts
-			(xy 228.6 146.05) (xy 238.76 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "637fb893-5f23-4205-a073-78841661e0a5")
 	)
 	(wire
 		(pts
@@ -7842,16 +8236,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 107.95) (xy 336.55 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c0d028b-aefd-4f7b-a374-34eada7b068d")
-	)
-	(wire
-		(pts
 			(xy 265.43 252.73) (xy 265.43 260.35)
 		)
 		(stroke
@@ -7879,16 +8263,6 @@
 			(type default)
 		)
 		(uuid "9deacb83-bbb9-42a6-8c6d-454809c52f53")
-	)
-	(wire
-		(pts
-			(xy 241.3 144.78) (xy 241.3 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9efe31b1-5a18-42c7-80e4-c45c794d3178")
 	)
 	(wire
 		(pts
@@ -7972,16 +8346,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 140.97) (xy 228.6 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc15a40c-9dee-4c5f-b861-8b18bcad1814")
-	)
-	(wire
-		(pts
 			(xy 274.32 237.49) (xy 266.7 237.49)
 		)
 		(stroke
@@ -8029,16 +8393,6 @@
 			(type default)
 		)
 		(uuid "c71e6f8f-4721-4caf-bec6-f2f091ebbfbf")
-	)
-	(wire
-		(pts
-			(xy 217.17 146.05) (xy 228.6 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caad49aa-56f3-461f-b3ec-548dcf2d8d11")
 	)
 	(wire
 		(pts
@@ -8122,26 +8476,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 137.16) (xy 252.73 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e29332b7-a202-43cb-afd3-4b981b8b074e")
-	)
-	(wire
-		(pts
-			(xy 217.17 140.97) (xy 217.17 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e36bea50-bd7e-47e8-bf68-e83fd1dcf1a6")
-	)
-	(wire
-		(pts
 			(xy 254 237.49) (xy 240.03 237.49)
 		)
 		(stroke
@@ -8159,16 +8493,6 @@
 			(type default)
 		)
 		(uuid "e49c2f6a-01e3-4141-813f-8cce33453c40")
-	)
-	(wire
-		(pts
-			(xy 228.6 128.27) (xy 228.6 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e75a1a01-7883-48cb-8039-dcfd5b1f917d")
 	)
 	(wire
 		(pts
@@ -8282,43 +8606,327 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 144.78) (xy 238.76 146.05)
+			(xy 331.47 110.49) (xy 384.81 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdb961bf-a0d9-4fc7-a412-a174104973d3")
+		(uuid "90c137d0-a269-41eb-b3c9-839175778545")
 	)
 	(wire
 		(pts
-			(xy 240.03 128.27) (xy 228.6 128.27)
+			(xy 191.77 128.27) (xy 203.2 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fe3b9d21-5dc5-4744-8f0b-e3852a227e5e")
+		(uuid "0766065a-8dea-4b11-a12b-657c69f912cb")
 	)
 	(wire
 		(pts
-			(xy 331.47 110.49) (xy 334.01 110.49)
+			(xy 203.2 128.27) (xy 227.33 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffd2aa6c-db58-4f55-b2e3-52876e672131")
+		(uuid "78e9b528-170a-4eda-819e-9e589b1d6c31")
 	)
 	(wire
 		(pts
-			(xy 331.47 115.57) (xy 336.55 115.57)
+			(xy 227.33 128.27) (xy 240.03 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ffd90eb9-6308-4f23-8e78-60f5d0483379")
+		(uuid "c3f47865-a9b2-4db7-9d7a-381476f46bd5")
+	)
+	(wire
+		(pts
+			(xy 191.77 128.27) (xy 191.77 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad329cee-aaf0-4a7f-b9d7-312c6125fd37")
+	)
+	(wire
+		(pts
+			(xy 203.2 128.27) (xy 203.2 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee3ab83-7bfe-4e00-8dc9-1ffc23bddb8b")
+	)
+	(wire
+		(pts
+			(xy 191.77 140.97) (xy 191.77 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0653e94-b1b0-4f09-8612-dac7ee1cdef4")
+	)
+	(wire
+		(pts
+			(xy 203.2 140.97) (xy 203.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8486ac82-f159-48b1-bdc9-28b4c51fece1")
+	)
+	(wire
+		(pts
+			(xy 191.77 146.05) (xy 203.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910f2830-c152-4e6b-b5a8-1f05a0dda3fe")
+	)
+	(wire
+		(pts
+			(xy 203.2 146.05) (xy 240.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "737ec8d7-32dc-4c8d-bd87-8479f6532799")
+	)
+	(wire
+		(pts
+			(xy 240.03 144.78) (xy 240.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3870915-6455-46f4-bc21-041695150536")
+	)
+	(wire
+		(pts
+			(xy 229.87 135.89) (xy 227.33 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9825232-7908-4484-a0ec-9463f812a7e1")
+	)
+	(wire
+		(pts
+			(xy 227.33 135.89) (xy 227.33 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda713c1-bc0d-4ec4-9c8e-4faa5e7c5b07")
+	)
+	(wire
+		(pts
+			(xy 229.87 138.43) (xy 222.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ea368a-e9b5-48d3-a64c-5f64d24f792b")
+	)
+	(wire
+		(pts
+			(xy 250.19 135.89) (xy 252.73 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816da7e8-cc97-4bad-b99d-e61d537ba7eb")
+	)
+	(wire
+		(pts
+			(xy 252.73 135.89) (xy 252.73 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683e7d6c-fe17-492e-8a8c-3fe4c6a1f971")
+	)
+	(wire
+		(pts
+			(xy 260.35 140.97) (xy 264.16 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930bf315-e31e-4bec-8378-0789a0bee9e8")
+	)
+	(wire
+		(pts
+			(xy 264.16 140.97) (xy 273.05 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d1e3ae-b18e-4c2a-9f30-bef45ed03d36")
+	)
+	(junction
+		(at 203.2 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dde8193-5947-4d4e-97ca-716d25eac2b9")
+	)
+	(junction
+		(at 203.2 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb05a436-ec87-4843-8571-221f9a97bca3")
+	)
+	(junction
+		(at 227.33 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8aca8b1-fb4c-43c8-9dd8-5ab3ab396f53")
+	)
+	(junction
+		(at 264.16 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "868fd840-c251-4e83-9d0e-63131fc55147")
+	)
+	(label "VCXO_VC"
+		(at 222.25 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc13b6f5-eb7f-481b-9597-1d414e3d13fb")
+	)
+	(label "SX_DIO3"
+		(at 367.03 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6eae5276-0ba8-45a2-8d70-6896f6300cf8")
+	)
+	(wire
+		(pts
+			(xy 331.47 115.57) (xy 384.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d952d94-08b2-4f37-a1e4-ed2d9543008a")
+	)
+	(label "SX_DIO1"
+		(at 367.03 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6144fe56-e3cd-4a74-9ef0-869eb8cece62")
+	)
+	(wire
+		(pts
+			(xy 331.47 118.11) (xy 384.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31946a07-fd07-4545-8a94-9242e263472f")
+	)
+	(label "SX_DIO0"
+		(at 367.03 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1e82b6b-b185-4ab2-987b-e3d76b386234")
+	)
+	(wire
+		(pts
+			(xy 106.68 129.54) (xy 116.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260425cb-687d-4aa3-be9a-d1fafb00653b")
+	)
+	(label "SX_DIO1"
+		(at 116.84 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "982585b2-9511-4ae7-901e-45ffa293dc48")
+	)
+	(wire
+		(pts
+			(xy 106.68 147.32) (xy 116.84 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afd58c0d-508f-4024-b25d-73975485784d")
+	)
+	(label "SX_DIO3"
+		(at 116.84 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a79c83fc-c418-4b7c-bb1c-868088ded49e")
+	)
+	(wire
+		(pts
+			(xy 55.88 152.4) (xy 45.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac3315fa-9cc5-4e2b-b1c1-e58b2c89f469")
+	)
+	(label "SX_DIO0"
+		(at 45.72 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efb00f38-1ea2-4cb9-9f9b-e84c06e225c9")
 	)
 	(label "TX_SX1255"
 		(at 284.48 96.52 0)
@@ -8588,7 +9196,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "06559482-cecf-4aed-a9f6-25e6c93f9074")
 		(property "Reference" "#PWR059"
@@ -9032,7 +9640,7 @@
 	)
 	(symbol
 		(lib_id "M17_Mechanical:TP-PAD-1MM")
-		(at 336.55 118.11 270)
+		(at 384.81 118.11 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9042,7 +9650,7 @@
 		(dnp no)
 		(uuid "1c9aea35-5372-4a5d-804a-6d02bd640367")
 		(property "Reference" "TP3"
-			(at 341.63 118.11 90)
+			(at 389.89 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9053,7 +9661,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 347.98 118.1101 90)
+			(at 396.24 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9064,7 +9672,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 336.55 123.19 0)
+			(at 384.81 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9075,7 +9683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 123.19 0)
+			(at 384.81 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9086,7 +9694,7 @@
 			)
 		)
 		(property "Description" "Test point, round copper pad 1.0 mm. It is a board feature, not a part to buy"
-			(at 336.55 118.11 0)
+			(at 384.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9097,7 +9705,7 @@
 			)
 		)
 		(property "Type" "test_point"
-			(at 336.55 118.11 0)
+			(at 384.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9127,7 +9735,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "1e85df94-079c-424e-9041-f90f839f4472")
 		(property "Reference" "#FLG12"
@@ -9563,7 +10171,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "23bcaad7-a389-4561-bc5f-199b3901cdd2")
 		(property "Reference" "#FLG01"
@@ -9651,7 +10259,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2a9fd474-5e37-4320-b471-455fb53aeb2c")
 		(property "Reference" "#PWR042"
@@ -9904,7 +10512,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2b136704-0bf8-49dd-bc8e-851f7a624a6f")
 		(property "Reference" "#PWR060"
@@ -10249,7 +10857,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30db7320-0f46-4a5a-a507-78d50ba1f7b1")
@@ -10338,7 +10946,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "334547db-452f-4b32-a5bc-0ff1ef706acc")
 		(property "Reference" "#PWR055"
@@ -10798,7 +11406,7 @@
 	)
 	(symbol
 		(lib_id "M17_Mechanical:TP-PAD-1MM")
-		(at 336.55 115.57 270)
+		(at 384.81 115.57 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10808,7 +11416,7 @@
 		(dnp no)
 		(uuid "3e5a68f2-761a-40a7-ab01-c276da86e123")
 		(property "Reference" "TP2"
-			(at 341.63 115.57 90)
+			(at 389.89 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10819,7 +11427,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 347.98 115.5701 90)
+			(at 396.24 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10830,7 +11438,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 336.55 120.65 0)
+			(at 384.81 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10841,7 +11449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 120.65 0)
+			(at 384.81 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10852,7 +11460,7 @@
 			)
 		)
 		(property "Description" "Test point, round copper pad 1.0 mm. It is a board feature, not a part to buy"
-			(at 336.55 115.57 0)
+			(at 384.81 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10863,7 +11471,7 @@
 			)
 		)
 		(property "Type" "test_point"
-			(at 336.55 115.57 0)
+			(at 384.81 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11054,14 +11662,14 @@
 		)
 	)
 	(symbol
-		(lib_id "M17_Mechanical:CONN-M2-KEYE-2230-CARD")
+		(lib_id "M17_Mechanical:CONN-M2-KEYE-2242-CARD")
 		(at 81.28 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "42e59b9e-4d92-4041-b7b5-32311c4b8aef")
 		(property "Reference" "J1"
@@ -11085,7 +11693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PCBEdge:M.2_2230-xx-E"
+		(property "Footprint" "M17_Connectors:M.2_2242-xx-E"
 			(at 81.28 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11107,7 +11715,7 @@
 				)
 			)
 		)
-		(property "Description" "M.2 2230 key E card edge connector (gold fingers on the card). It is a board feature, not a part to buy"
+		(property "Description" "M.2 2242 key E card edge connector (gold fingers on the card). It is a board feature, not a part to buy"
 			(at 81.28 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11340,7 +11948,7 @@
 		)
 	)
 	(symbol
-		(lib_id "M17_ICs:TCXO-ECS-TXO-20CSMV4-32M")
+		(lib_id "M17_ICs:VCXO-XLH53V032-32M")
 		(at 240.03 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -11351,26 +11959,28 @@
 		(dnp no)
 		(uuid "482fda1e-9ce8-4029-9c9a-c5ee5fd31b3a")
 		(property "Reference" "Y1"
-			(at 234.95 130.81 0)
+			(at 241.3 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "32MHz"
-			(at 244.856 130.81 0)
+			(at 243.84 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Oscillator:Oscillator_SMD_IDT_JS6-6_5.0x3.2mm_P1.27mm"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11381,7 +11991,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-TXO-20CSMV4.pdf"
+		(property "Datasheet" "https://www.renesas.com/en/document/dst/xl-family-low-phase-noise-quartz-based-pll-oscillators-datasheet"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11392,7 +12002,7 @@
 				)
 			)
 		)
-		(property "Description" "32 MHz 0.5 ppm clipped sine TCXO, 2.0x1.6 mm"
+		(property "Description" "32 MHz VCXO, LVCMOS 3.3 V output, 50 ppm pull range, 5.0x3.2 mm. Reference for the ADF4002 PLL"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -11403,7 +12013,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "ECS Inc."
+		(property "Manufacturer" "Renesas Electronics"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -11414,7 +12024,7 @@
 				)
 			)
 		)
-		(property "MPN" "ECS-TXO-20CSMV4-320-AY-TR"
+		(property "MPN" "XLH53V032.000000I"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -11425,7 +12035,7 @@
 				)
 			)
 		)
-		(property "Mouser" "520-TX20CSMV4320AYTR"
+		(property "Mouser" "972-XLH53V032000000I"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -11436,7 +12046,18 @@
 				)
 			)
 		)
-		(property "Type" "tcxo"
+		(property "LCSC" "C1671263"
+			(at 240.03 137.16 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "vcxo"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -11458,7 +12079,7 @@
 				)
 			)
 		)
-		(property "Operating_temperature" "-30C-85C"
+		(property "Operating_temperature" "-40C-85C"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -11469,7 +12090,7 @@
 				)
 			)
 		)
-		(property "Output" "clipped_sine_0.8Vpp_typ"
+		(property "Output" "LVCMOS"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -11480,7 +12101,7 @@
 				)
 			)
 		)
-		(property "Package" "2.0x1.6mm"
+		(property "Package" "5.0x3.2mm"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -11491,7 +12112,7 @@
 				)
 			)
 		)
-		(property "Stability" "0.5ppm"
+		(property "Pull_range" "50ppm_APR"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -11502,7 +12123,7 @@
 				)
 			)
 		)
-		(property "Supply_voltage" "1.7V-3.6V"
+		(property "Supply_voltage" "3.3V"
 			(at 240.03 137.16 0)
 			(hide yes)
 			(show_name yes)
@@ -11513,17 +12134,34 @@
 				)
 			)
 		)
-		(pin "4"
-			(uuid "8adb73c0-250b-4e5a-b662-dff6dc39c67c")
-		)
-		(pin "3"
-			(uuid "4be7761e-b91a-4e73-910b-718db899d9da")
-		)
-		(pin "2"
-			(uuid "0adc26e0-369b-4e2f-9db4-4badaac6a353")
+		(property "Tuning_slope" "85ppm/V"
+			(at 240.03 137.16 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "011782f2-9397-42e1-b19e-9e4b6273b7e5")
+			(uuid "3ecd8104-29a5-436d-b703-9f2432e0e510")
+		)
+		(pin "2"
+			(uuid "72971faf-1e91-45a8-b2d5-eb6ad5795dd7")
+		)
+		(pin "3"
+			(uuid "b5b31474-5ff7-4cb0-8de7-1b87cd03b618")
+		)
+		(pin "4"
+			(uuid "d471b420-6edd-4822-8ea2-afcd6c0020a6")
+		)
+		(pin "5"
+			(uuid "5176404f-a0ae-410c-ac78-6802bd5fb928")
+		)
+		(pin "6"
+			(uuid "d3a223a0-d954-4ec2-b11a-7e32b53998f0")
 		)
 		(instances
 			(project "rru2-rf-sx1255"
@@ -12117,7 +12755,7 @@
 	)
 	(symbol
 		(lib_id "M17_Passives:CAP-100N-50V-0402-X7R")
-		(at 228.6 137.16 0)
+		(at 203.2 137.16 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12128,7 +12766,7 @@
 		(dnp no)
 		(uuid "5cbb6fa3-d7c7-4653-95b1-473018a1dbb6")
 		(property "Reference" "C2"
-			(at 225.552 135.89 0)
+			(at 200.152 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12139,7 +12777,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 225.552 138.43 0)
+			(at 200.152 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12150,7 +12788,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 227.6348 140.97 0)
+			(at 202.2348 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12161,7 +12799,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12172,7 +12810,7 @@
 			)
 		)
 		(property "Description" "0402 MLCC capacitor, 100nF, 50V, X7R, ±10%, ROHS"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12183,7 +12821,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12194,7 +12832,7 @@
 			)
 		)
 		(property "MPN" "CL05B104KB54PNC"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12205,7 +12843,7 @@
 			)
 		)
 		(property "Mouser" "187-CL05B104KB54PNC"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12216,7 +12854,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12227,7 +12865,7 @@
 			)
 		)
 		(property "Type" "capacitor"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12238,7 +12876,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12249,7 +12887,7 @@
 			)
 		)
 		(property "Technology" "MLCC"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12260,7 +12898,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12271,7 +12909,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 228.6 137.16 0)
+			(at 203.2 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12304,7 +12942,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "5fe29ac2-1ca0-4946-b39c-cdd0ee7e553b")
 		(property "Reference" "#PWR101"
@@ -12570,7 +13208,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "62495913-eb47-4004-9e16-5abc0fc92c96")
 		(property "Reference" "#PWR043"
@@ -12656,7 +13294,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "64d48c2a-9f84-44d4-9db0-302563a4872e")
 		(property "Reference" "#PWR062"
@@ -12736,7 +13374,7 @@
 	)
 	(symbol
 		(lib_id "M17_Mechanical:TP-PAD-1MM")
-		(at 336.55 107.95 270)
+		(at 384.81 110.49 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12746,7 +13384,7 @@
 		(dnp no)
 		(uuid "65120d94-7498-4ade-aa14-c092eb4ad6e2")
 		(property "Reference" "TP1"
-			(at 341.63 107.95 90)
+			(at 389.89 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12757,7 +13395,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 347.98 107.9501 90)
+			(at 396.24 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12768,7 +13406,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 336.55 113.03 0)
+			(at 384.81 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12779,7 +13417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 113.03 0)
+			(at 384.81 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12790,7 +13428,7 @@
 			)
 		)
 		(property "Description" "Test point, round copper pad 1.0 mm. It is a board feature, not a part to buy"
-			(at 336.55 107.95 0)
+			(at 384.81 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12801,7 +13439,7 @@
 			)
 		)
 		(property "Type" "test_point"
-			(at 336.55 107.95 0)
+			(at 384.81 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13012,7 +13650,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6de136dc-e35d-4350-a447-a434a5d6e845")
@@ -13628,7 +14266,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7fcdf17c-5222-423e-b825-74cec658123b")
 		(property "Reference" "#PWR103"
@@ -13884,7 +14522,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8277fa8b-7e78-4c88-945d-7b9931558fcf")
 		(property "Reference" "#FLG11"
@@ -13972,7 +14610,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "888c8c2b-3989-4e27-9977-1982f905209d")
@@ -14427,7 +15065,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "994de01f-905d-4c32-9877-f25274dfd614")
 		(property "Reference" "#PWR019"
@@ -14784,7 +15422,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a501ca5f-bb55-4886-9acf-7c663c545b7a")
 		(property "Reference" "#PWR011"
@@ -14866,7 +15504,7 @@
 	)
 	(symbol
 		(lib_id "M17_Passives:CAP-1U-25V-0402-X5R")
-		(at 217.17 137.16 0)
+		(at 191.77 137.16 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14877,7 +15515,7 @@
 		(dnp no)
 		(uuid "ab09751a-3dbc-4520-9661-7c077808b454")
 		(property "Reference" "C38"
-			(at 213.36 135.8899 0)
+			(at 187.96 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14888,7 +15526,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 213.36 138.4299 0)
+			(at 187.96 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14899,7 +15537,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 216.2048 140.97 0)
+			(at 190.8048 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14910,7 +15548,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.samsungsem.com/resources/file/global/support/product_catalog/MLCC_2512.pdf"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14921,7 +15559,7 @@
 			)
 		)
 		(property "Description" "0402 MLCC capacitor, 1uF, 25V, X5R, ±10%, ROHS"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14932,7 +15570,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -14943,7 +15581,7 @@
 			)
 		)
 		(property "MPN" "CL05A105KA5NQNC"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -14954,7 +15592,7 @@
 			)
 		)
 		(property "Mouser" "187-CL05A105KA5NQNC"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -14965,7 +15603,7 @@
 			)
 		)
 		(property "LCSC" "C52923"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -14976,7 +15614,7 @@
 			)
 		)
 		(property "Type" "capacitor"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -14987,7 +15625,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -14998,7 +15636,7 @@
 			)
 		)
 		(property "Technology" "MLCC"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -15009,7 +15647,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -15020,7 +15658,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 217.17 137.16 0)
+			(at 191.77 137.16 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -15584,7 +16222,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bcaa1df5-10a2-415d-9cf7-d492753906a6")
 		(property "Reference" "#PWR102"
@@ -16023,7 +16661,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "ccf0427b-09b9-4e33-906f-14e1c154b574")
 		(property "Reference" "#PWR039"
@@ -16501,7 +17139,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "df3a07a4-0849-4c52-9de5-da8ed3330bfb")
 		(property "Reference" "#PWR104"
@@ -16589,7 +17227,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "df75f272-bcf2-4cce-8e0f-3247cddb9d77")
 		(property "Reference" "#PWR105"
@@ -17235,7 +17873,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "eed3f39d-d3f7-4744-ace8-0e7c0131e0fb")
 		(property "Reference" "#PWR04"
@@ -17323,7 +17961,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2d6d13a-0ac1-4932-a604-260c65b99710")
@@ -17579,7 +18217,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "fc5633af-b48a-4143-b878-5476233d9ed2")
 		(property "Reference" "#PWR028"
@@ -17654,6 +18292,433 @@
 			(project "rru2-rf-sx1255"
 				(path "/de5f5dc7-3630-4616-b273-de33421ac1bb"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M17_Passives:RES-1K-0402")
+		(at 256.54 140.97 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa7865fb-524b-415b-b768-a74373547178")
+		(property "Reference" "R25"
+			(at 254 138.43 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 254 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.uni-royal.cn/en/images/userfile/file/1787191973c56505e6d9ab55c7.pdf"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402 thick film resistor, 62.5mW, ±100ppm/℃, -55℃~+155℃"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1001TCE"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "303-0402WGF1001TCE"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "resistor"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick Film"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 256.54 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daeccc21-af28-4e25-9fa4-ad4a7cfc5c79")
+		)
+		(pin "2"
+			(uuid "d1715ce6-d9ae-4f8a-827b-76394ec9c8c1")
+		)
+		(instances
+			(project "rru2-rf-sx1255"
+				(path "/de5f5dc7-3630-4616-b273-de33421ac1bb"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M17_Passives:RES-470R-0402")
+		(at 264.16 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48de61fc-6497-4100-b9f4-36f036aeb0f3")
+		(property "Reference" "R26"
+			(at 266.7 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470R"
+			(at 266.7 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.uni-royal.cn/en/images/userfile/file/1787191973c56505e6d9ab55c7.pdf"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402 thick film resistor, 62.5mW, ±100ppm/℃, -55℃~+155℃"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF4700TCE"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "303-0402WGF4700TCE"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25117"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "resistor"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick Film"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8777bc9-c21c-4c70-86e4-90935db30d11")
+		)
+		(pin "2"
+			(uuid "da5cb3f8-7d43-4619-be57-4b89c1dc1ff3")
+		)
+		(instances
+			(project "rru2-rf-sx1255"
+				(path "/de5f5dc7-3630-4616-b273-de33421ac1bb"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M17_Power:GND")
+		(at 264.16 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "82060be7-3cac-4863-8cde-c1ad9829e888")
+		(property "Reference" "#PWR106"
+			(at 264.16 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol, ground"
+			(at 264.16 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "power"
+			(at 264.16 148.59 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf3eb829-09b4-42f7-a32c-e6ec69e1d71b")
+		)
+		(instances
+			(project "rru2-rf-sx1255"
+				(path "/de5f5dc7-3630-4616-b273-de33421ac1bb"
+					(reference "#PWR106")
 					(unit 1)
 				)
 			)
