@@ -4158,6 +4158,17 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
+		(property "LCSC" "C88883"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1bc2e7fa-b4b0-41c7-9579-79a41465806a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/714b3137-787f-47da-8fe4-5bc48cf7c6e6")
 		(sheetname "/")
 		(sheetfile "rru2-rf-sx1255.kicad_sch")
@@ -5559,6 +5570,17 @@
 			)
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(property "LCSC" "C167487"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7da23273-4b5f-4894-b2f7-01ee8888375d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/ec33021b-a4a7-42b2-af04-00b85db4390d")
 		(sheetname "/")
 		(sheetfile "rru2-rf-sx1255.kicad_sch")
@@ -12397,6 +12419,17 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
+		(property "LCSC" "C464434"
+			(at 0 0 270)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "880fb327-eefb-4df9-944b-128b163563bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/a082ecd8-6262-43df-a1a2-1feca4e3f6c8")
 		(sheetname "/")
 		(sheetfile "rru2-rf-sx1255.kicad_sch")
@@ -12711,6 +12744,61 @@
 			)
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(property "LCSC" "C98059"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bd619e6-ac41-46e9-b1a7-22afd4ae7d8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Manufacturer" "Murata Electronics"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be6327fc-8e4f-4d33-979d-f9c7bdf844f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "LQW15AN39NH00D"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbea87e9-82ac-4f06-be64-ebb1bf6cbf0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "81-LQW15AN39NH00D"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad75f669-c312-4e75-8375-ba110c6308a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C913698"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9d9a3f-24ac-49ed-898b-687ddcc6e105")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(path "/db212acb-bf0a-47a8-bc47-f5a65b48b535")
 		(sheetname "/")
 		(sheetfile "rru2-rf-sx1255.kicad_sch")
