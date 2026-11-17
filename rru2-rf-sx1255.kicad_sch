@@ -2660,7 +2660,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "M17_Passives:CAP-10U-50V-0805-X5R"
+		(symbol "M17_Passives:CAP-10U-25V-0805-X5R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2716,7 +2716,7 @@
 					)
 				)
 			)
-			(property "Description" "0805 MLCC capacitor, 10uF, 50V, X5R, ±10%, ROHS"
+			(property "Description" "0805 MLCC capacitor, 10uF, 25V, X5R, ±10%, ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2727,7 +2727,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "10uF CL21A106KBYQNNE"
+			(property "ki_keywords" "10uF CL21A106KAYNNNE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2760,7 +2760,7 @@
 					)
 				)
 			)
-			(property "MPN" "CL21A106KBYQNNE"
+			(property "MPN" "CL21A106KAYNNNE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2771,7 +2771,7 @@
 					)
 				)
 			)
-			(property "Mouser" "187-CL21A106KBYQNNE"
+			(property "Mouser" "187-CL21A106KAYNNNE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2782,7 +2782,51 @@
 					)
 				)
 			)
-			(property "LCSC" "C2932476"
+			(property "LCSC" "C15850"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt Manufacturer" "Taiyo Yuden"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt MPN" "TMK212BBJ106KG-T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt Mouser" "963-TMK212BBJ106KG-T"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Alt LCSC" "C386085"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2837,7 +2881,7 @@
 					)
 				)
 			)
-			(property "Voltage" "50V"
+			(property "Voltage" "25V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2848,7 +2892,7 @@
 					)
 				)
 			)
-			(symbol "CAP-10U-50V-0805-X5R_0_1"
+			(symbol "CAP-10U-25V-0805-X5R_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -2874,7 +2918,7 @@
 					)
 				)
 			)
-			(symbol "CAP-10U-50V-0805-X5R_1_1"
+			(symbol "CAP-10U-25V-0805-X5R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -3168,7 +3212,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "M17_Passives:CAP-RF-100P-100V-0402-GCM"
+		(symbol "M17_Passives:CAP-RF-100P-50V-0402-GRM"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3213,7 +3257,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C2A101GE02-01A-EN_PDF_CERAMICCAPACITORSMD"
+			(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1555C1H101JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3224,7 +3268,7 @@
 					)
 				)
 			)
-			(property "Description" "100pF 100V C0G 0402 capacitor for RF DC block and bypass"
+			(property "Description" "100pF 50V C0G 0402 capacitor for RF DC block and bypass"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3235,7 +3279,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "100pF GCM1555C2A101GE02D"
+			(property "ki_keywords" "100pF GRM1555C1H101JA01D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3268,7 +3312,7 @@
 					)
 				)
 			)
-			(property "MPN" "GCM1555C2A101GE02D"
+			(property "MPN" "GRM1555C1H101JA01D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3279,7 +3323,18 @@
 					)
 				)
 			)
-			(property "Mouser" "81-GCM1555C2A101GE2D"
+			(property "Mouser" "81-GRM1555C1H101JA1D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C77177"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3334,7 +3389,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "±2%"
+			(property "Tolerance" "±5%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3345,7 +3400,7 @@
 					)
 				)
 			)
-			(property "Voltage" "100V"
+			(property "Voltage" "50V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3356,7 +3411,7 @@
 					)
 				)
 			)
-			(symbol "CAP-RF-100P-100V-0402-GCM_0_1"
+			(symbol "CAP-RF-100P-50V-0402-GRM_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -3382,7 +3437,7 @@
 					)
 				)
 			)
-			(symbol "CAP-RF-100P-100V-0402-GCM_1_1"
+			(symbol "CAP-RF-100P-50V-0402-GRM_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -8694,13 +8749,23 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 110.49) (xy 384.81 110.49)
+			(xy 331.47 110.49) (xy 336.55 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "90c137d0-a269-41eb-b3c9-839175778545")
+	)
+	(wire
+		(pts
+			(xy 344.17 110.49) (xy 384.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7233408c-8f92-4502-9358-c0388997de2f")
 	)
 	(wire
 		(pts
@@ -8918,13 +8983,23 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 115.57) (xy 384.81 115.57)
+			(xy 331.47 115.57) (xy 336.55 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2d952d94-08b2-4f37-a1e4-ed2d9543008a")
+	)
+	(wire
+		(pts
+			(xy 344.17 115.57) (xy 384.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1e81b99-e306-4686-9de6-4c9359801b63")
 	)
 	(label "SX_DIO1"
 		(at 367.03 115.57 180)
@@ -8938,13 +9013,23 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 118.11) (xy 384.81 118.11)
+			(xy 331.47 118.11) (xy 336.55 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31946a07-fd07-4545-8a94-9242e263472f")
+	)
+	(wire
+		(pts
+			(xy 344.17 118.11) (xy 384.81 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6252d060-7816-46c6-9a72-bcf1b8b85f2e")
 	)
 	(label "SX_DIO0"
 		(at 367.03 118.11 180)
@@ -9898,6 +9983,507 @@
 			(project "rru2-rf-sx1255"
 				(path "/de5f5dc7-3630-4616-b273-de33421ac1bb"
 					(reference "#FLG12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M17_Passives:RES-120R-0402")
+		(at 340.36 110.49 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d1e8f47-eae3-423b-a5d7-d24d2d3fd49d")
+		(property "Reference" "R4"
+			(at 335.28 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 345.948 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 340.36 112.268 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.uni-royal.cn/en/images/userfile/file/1787191973c56505e6d9ab55c7.pdf"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402 thick film resistor, 62.5mW, ±100ppm/℃, -55℃~+155℃"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1200TCE"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "303-0402WGF1200TCE"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "resistor"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick Film"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 340.36 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "71fbbc8b-4b97-45c1-b403-4ad0aa0153e9")
+		)
+		(pin "1"
+			(uuid "ac661764-df42-497d-8342-a8e12001cce6")
+		)
+		(instances
+			(project "rru2-rf-sx1255"
+				(path "/de5f5dc7-3630-4616-b273-de33421ac1bb"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M17_Passives:RES-120R-0402")
+		(at 340.36 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb96ae93-512b-4d94-b137-fe9fac4c33f2")
+		(property "Reference" "R5"
+			(at 335.28 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 345.948 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 340.36 117.348 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.uni-royal.cn/en/images/userfile/file/1787191973c56505e6d9ab55c7.pdf"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402 thick film resistor, 62.5mW, ±100ppm/℃, -55℃~+155℃"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1200TCE"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "303-0402WGF1200TCE"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "resistor"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick Film"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 340.36 115.57 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d0be9a9c-57cf-4bd6-b3b8-7776bcb858d3")
+		)
+		(pin "1"
+			(uuid "d5370d28-c9c5-40a5-9aaf-b748d50a7d93")
+		)
+		(instances
+			(project "rru2-rf-sx1255"
+				(path "/de5f5dc7-3630-4616-b273-de33421ac1bb"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M17_Passives:RES-120R-0402")
+		(at 340.36 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9c48b26-5217-452e-a9a5-3580997312e5")
+		(property "Reference" "R6"
+			(at 335.28 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 345.948 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 340.36 119.888 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.uni-royal.cn/en/images/userfile/file/1787191973c56505e6d9ab55c7.pdf"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0402 thick film resistor, 62.5mW, ±100ppm/℃, -55℃~+155℃"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0402WGF1200TCE"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser" "303-0402WGF1200TCE"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25079"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "resistor"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Technology" "Thick Film"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 340.36 118.11 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69d60e4b-bfa5-4541-b8c3-0eef1a09f944")
+		)
+		(pin "1"
+			(uuid "2dc4bdb6-55de-44c6-84fc-1a99db622ef3")
+		)
+		(instances
+			(project "rru2-rf-sx1255"
+				(path "/de5f5dc7-3630-4616-b273-de33421ac1bb"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13111,7 +13697,7 @@
 		)
 	)
 	(symbol
-		(lib_id "M17_Passives:CAP-RF-100P-100V-0402-GCM")
+		(lib_id "M17_Passives:CAP-RF-100P-50V-0402-GRM")
 		(at 276.86 140.97 270)
 		(unit 1)
 		(body_style 1)
@@ -13152,7 +13738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C2A101GE02-01A-EN_PDF_CERAMICCAPACITORSMD"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1555C1H101JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 276.86 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13163,7 +13749,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF 100V C0G 0402 capacitor for RF DC block and bypass"
+		(property "Description" "100pF 50V C0G 0402 capacitor for RF DC block and bypass"
 			(at 276.86 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13185,7 +13771,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM1555C2A101GE02D"
+		(property "MPN" "GRM1555C1H101JA01D"
 			(at 276.86 140.97 0)
 			(hide yes)
 			(show_name yes)
@@ -13196,7 +13782,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GCM1555C2A101GE2D"
+		(property "Mouser" "81-GRM1555C1H101JA1D"
 			(at 276.86 140.97 0)
 			(hide yes)
 			(show_name yes)
@@ -13251,7 +13837,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±2%"
+		(property "Tolerance" "±5%"
 			(at 276.86 140.97 0)
 			(hide yes)
 			(show_name yes)
@@ -13262,11 +13848,22 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "50V"
 			(at 276.86 140.97 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77177"
+			(at 276.86 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16583,7 +17180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "M17_Passives:CAP-10U-50V-0805-X5R")
+		(lib_id "M17_Passives:CAP-10U-25V-0805-X5R")
 		(at 196.85 251.46 0)
 		(mirror y)
 		(unit 1)
@@ -16638,7 +17235,7 @@
 				)
 			)
 		)
-		(property "Description" "0805 MLCC capacitor, 10uF, 50V, X5R, ±10%, ROHS"
+		(property "Description" "0805 MLCC capacitor, 10uF, 25V, X5R, ±10%, ROHS"
 			(at 196.85 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -16660,7 +17257,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KBYQNNE"
+		(property "MPN" "CL21A106KAYNNNE"
 			(at 196.85 251.46 0)
 			(hide yes)
 			(show_name yes)
@@ -16671,7 +17268,7 @@
 				)
 			)
 		)
-		(property "Mouser" "187-CL21A106KBYQNNE"
+		(property "Mouser" "187-CL21A106KAYNNNE"
 			(at 196.85 251.46 0)
 			(hide yes)
 			(show_name yes)
@@ -16682,7 +17279,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2932476"
+		(property "LCSC" "C15850"
 			(at 196.85 251.46 0)
 			(hide yes)
 			(show_name yes)
@@ -16737,11 +17334,55 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 196.85 251.46 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Manufacturer" "Taiyo Yuden"
+			(at 196.85 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt MPN" "TMK212BBJ106KG-T"
+			(at 196.85 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt Mouser" "963-TMK212BBJ106KG-T"
+			(at 196.85 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Alt LCSC" "C386085"
+			(at 196.85 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17695,7 +18336,7 @@
 		)
 	)
 	(symbol
-		(lib_id "M17_Passives:CAP-RF-100P-100V-0402-GCM")
+		(lib_id "M17_Passives:CAP-RF-100P-50V-0402-GRM")
 		(at 104.14 233.68 90)
 		(unit 1)
 		(body_style 1)
@@ -17738,7 +18379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GCM1555C2A101GE02-01A-EN_PDF_CERAMICCAPACITORSMD"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM1555C1H101JA01-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 104.14 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -17749,7 +18390,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF 100V C0G 0402 capacitor for RF DC block and bypass"
+		(property "Description" "100pF 50V C0G 0402 capacitor for RF DC block and bypass"
 			(at 104.14 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -17771,7 +18412,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM1555C2A101GE02D"
+		(property "MPN" "GRM1555C1H101JA01D"
 			(at 104.14 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -17782,7 +18423,7 @@
 				)
 			)
 		)
-		(property "Mouser" "81-GCM1555C2A101GE2D"
+		(property "Mouser" "81-GRM1555C1H101JA1D"
 			(at 104.14 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -17837,7 +18478,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "±2%"
+		(property "Tolerance" "±5%"
 			(at 104.14 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -17848,11 +18489,22 @@
 				)
 			)
 		)
-		(property "Voltage" "100V"
+		(property "Voltage" "50V"
 			(at 104.14 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C77177"
+			(at 104.14 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
